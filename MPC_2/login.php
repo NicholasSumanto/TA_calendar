@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-  <form method="POST" action="proses_login.php">
+  <form method="POST" action="proses_login.php" onsubmit="return validasi()">
     <div class="box">
         <div class="form">
           <h2>Sign in</h2>
@@ -33,3 +33,21 @@
   </form>
 </body>
 </html>
+
+<script>
+  function validasi() {
+    var password = document.getElementbyName("password");
+    var username = document.getElementbyName("username");
+
+    if (password == null || password == "")
+      return false;
+        
+    if (username.value == "")
+      return false;
+        
+    if (password.value == "")
+      return false;
+        
+    return true;
+  }
+</script>

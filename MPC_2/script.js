@@ -131,3 +131,7 @@ function hideTodayBtn() {
     todayBtn.style.display = "flex";
   }
 }
+
+function redirectToLogin() {
+  window.location.href = "login.php";
+}

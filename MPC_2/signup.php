@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up Page</title>
     <link rel="stylesheet" href="signup.css">
+    <script src="script.js"></script>
 </head>
 <body>
   <form method="POST" action="proses_signup.php" onsubmit="return validasi()">
         <div class="form">
-        <a href="login.html">
-            <button class="chevron-arrow-right"></button>
-          </a>
+        <a href="login.php">
+          <button class="chevron-arrow-right" onclick="redirectToLogin()"></button>
+          </a>
             <h2>Sign up</h2>
           <div class="inputBox">
             <input type="text"  id="name" name="nama" required="required" />

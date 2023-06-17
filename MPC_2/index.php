@@ -20,7 +20,7 @@
     <div class="menu">
       <a href="profile.php">Profile</a>
       <a href="event.php">Event</a>
-      <button class="btnLogin-popup">Logout</button>
+      <a href="logout.php" class="btnLogin-popup">Logout</a>
     </div>
   </header>
   <body>

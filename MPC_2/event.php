@@ -26,23 +26,13 @@
     <div class="container">
       <div class="calendar">
         <div class="header">
-          <div class="month"></div>
-          <div class="btns">
-            <div class="btn today-btn">
-              <i class="fas fa-calendar-day"></i>
-            </div>
-            <div class="btn prev-btn">
-              <i class="fas fa-chevron-left"></i>
-            </div>
-            <div class="btn next-btn">
-              <i class="fas fa-chevron-right"></i>
-            </div>
-          </div>
+          <div class="month">
+          <h3>To-Do List</h3>
+          </div>  
         </div>
         <div class="days">
         </div>
         <div class="todo-list">
-      <h3>To-Do List</h3>
       <ul>
         <li>Task 1</li>
         <li>Task 2</li>

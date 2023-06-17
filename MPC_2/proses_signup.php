@@ -1,8 +1,6 @@
-<?php
-$conn =mysqli_connect("localhost", "root", "","calendar") or die("Koneksi ke DB gagal");
-?>
 
 <?php
+include "connect.php";
 if($_POST){
         $nama = $_POST["nama"];
         $username = $_POST["username"];
